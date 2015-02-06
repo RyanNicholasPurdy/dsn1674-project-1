@@ -1,15 +1,40 @@
 html{
   background-color:white;
 }
+/* changes background colour for entire html page */
 
 header{
   background-color: orange;
   padding: 1.5em 1.5em 1.5em 1.5em;
   display: block;
 }
+/* changes colour for page header */
 
 h1{
   text-align: center;
   color: purple;
   font-size: 2.5rem;
 }
+/* aligns text to centre, changes colour, and sets the font size */
+
+nav li{
+  display: inline;
+}
+/* makes initial list diplay as a line instead of stacked */
+
+nav{
+  text-align: center;
+}
+/* centers text to the middle of the page */
+
+nav a{
+  display: inline-block;
+  padding: 1em 1em 1em 1em;
+  margin: .2em .2em .2em .2em;
+  background-color: #703838;
+  color: white;
+  text-decoration: none;
+  border-radius: .5em;
+}
+/* creates rounded boxes around the list items, changes the colour of the boxes
+to a specific colour, and sets the text colour */
