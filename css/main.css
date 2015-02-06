@@ -63,7 +63,7 @@ h1,h2,h3{
 h2{
   border-top: 2px solid;
   border-color: #ffe524;
-  padding: 1xem 0em 0em 0em;
+  padding: 1em 0em 0em 0em;
 }
 /* puts a border on top of the header with a specific colour */
 
@@ -87,4 +87,15 @@ figcaption{
   text-align: center;
   margin: .1em .1em .1em .1em;
   color: black;
+}
+
+dd{
+  margin: 0;
+}
+/* makes the nutritional list items align left */
+
+footer{
+  text-align: center;
+  background-color: #ffe524;
+  padding: 1.1em;
 }
