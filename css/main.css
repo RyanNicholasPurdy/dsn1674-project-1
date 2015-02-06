@@ -29,12 +29,12 @@ nav{
 
 nav a{
   display: inline-block;
-  padding: 1em 1em 1em 1em;
-  margin: .2em .2em .2em .2em;
+  padding: .5em .5em .5em .5em;
+  margin: .1em .1em .1em .1em;
   background-color: #b2a215;
   color: white;
   text-decoration: none;
-  border-radius: .5em;
+  border-radius: .2em;
 }
 /* creates rounded boxes around the list items, changes the colour of the boxes
 to a specific colour, and sets the text colour */
@@ -43,4 +43,13 @@ nav a:hover {
 /* gives h1 (header1) a hover state */
   background-color: #cc3865;
   /* changes the menu items color when hovered over */
+}
+
+.colour-quote{
+  font-size: 2rem;
+  color: #b2a215;
+}
+
+.quote1{
+  color: #b2a215;
 }
