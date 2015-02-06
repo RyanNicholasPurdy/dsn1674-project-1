@@ -4,7 +4,7 @@ html{
 /* changes background colour for entire html page */
 
 header{
-  background-color: orange;
+  background-color: #ffe524;
   padding: 1.5em 1.5em 1.5em 1.5em;
   display: block;
 }
@@ -31,10 +31,16 @@ nav a{
   display: inline-block;
   padding: 1em 1em 1em 1em;
   margin: .2em .2em .2em .2em;
-  background-color: #703838;
+  background-color: #b2a215;
   color: white;
   text-decoration: none;
   border-radius: .5em;
 }
 /* creates rounded boxes around the list items, changes the colour of the boxes
 to a specific colour, and sets the text colour */
+
+nav a:hover {
+/* gives h1 (header1) a hover state */
+  background-color: #cc3865;
+  /* changes the menu items color when hovered over */
+}
